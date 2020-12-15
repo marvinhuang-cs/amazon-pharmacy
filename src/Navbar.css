@@ -1,0 +1,14 @@
+.navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    position: sticky;
+    font-family: "Amazon Ember";
+}
+
+.navbar__option {
+    color: #0C8281;
+    font-weight: 500;
+}

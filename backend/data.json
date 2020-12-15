@@ -1,0 +1,40 @@
+{
+  "products": {
+    "1": {
+      "name": "ColdCare Chewable Tablets Cherry",
+      "price": 7.99,
+      "description": "Upper respiratory remedies",
+      "image_url": "https://pics.drugstore.com/prodimg/610738/900.jpg"
+    },
+    "2": {
+      "name": "Oral Analgesic Paste",
+      "price": 4.79,
+      "description": "Oral analgesics",
+      "image_url": "https://pics.drugstore.com/prodimg/505457/900.jpg"
+    },
+    "3": {
+      "name": "Frequent Heartburn Medicine Acid Reflux Reducer Tablets",
+      "price": 27.99,
+      "description": "Heartburn",
+      "image_url": "https://pics.drugstore.com/prodimg/83093/900.jpg"
+    },
+    "4": {
+      "name": "Anti-Perspirant Deodorant, Wilderness with Lavender",
+      "price": 6.99,
+      "description": "Antiperspirants",
+      "image_url": "https://pics.drugstore.com/prodimg/611453/900.jpg"
+    },
+    "5": {
+      "name": "Cavity Protection Toothpaste with Fluoride",
+      "price": 1.79,
+      "description": "Toothpaste",
+      "image_url": "https://pics.drugstore.com/prodimg/569971/900.jpg"
+    },
+    "6": {
+      "name": "Antiseptic Mouthwash Cool Mint",
+      "price": 5.49,
+      "description": "Oral antiseptics and rinses",
+      "image_url": "https://pics.drugstore.com/prodimg/412048/900.jpg"
+    }
+  }
+}
