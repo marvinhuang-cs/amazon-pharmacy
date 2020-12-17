@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import home_photo from './images/home_photo.jpg'
-import Product from './Product'
+import ProductList from './ProductList'
 
 function Home() {
     return (
@@ -13,7 +13,7 @@ function Home() {
             </div>
 
             <div className="home__row">
-                <Product/>
+                <ProductList/>
             </div>
         </div>
     )

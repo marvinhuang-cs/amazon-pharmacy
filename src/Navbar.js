@@ -1,31 +1,24 @@
 import React from 'react'
 import './Navbar.css'
+import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 //navbar with links to home, cart, with search bar
 function Navbar() {
     return (
-        <div className="navbar">
-            <img src="https://assets.prod.apex.wolfgang.a2z.com/assets/ap-logo-full-color.svg" alt=""/>
+        <nav className="navbar navbar-light bg-light">
             
-            <div className="navbar__search">
-                <input
-                type="text"/>
-            </div>
-
-            <div className="navbar__option">
+            <img className="navbar__logo" src="https://assets.prod.apex.wolfgang.a2z.com/assets/ap-logo-full-color.svg" alt=""/>
+            <div className="navbar__option1">
                 <span>Sign in to Pharmacy</span>
             </div>
 
-            <div>
+            <div className="navbar__option2">
                 <ShoppingCartIcon/> 
+                <span> 0 Cart</span>
             </div>
 
-            <div>
-                <span>Cart</span>
-            </div>
-
-        </div>
+        </nav>
     )
 }
 

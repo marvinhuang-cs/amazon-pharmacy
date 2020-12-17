@@ -1,14 +1,45 @@
 .navbar {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: white;
-    position: sticky;
     font-family: "Amazon Ember";
 }
 
-.navbar__option {
+.navbar__logo {
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.navbar__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.navbar__searchInput {
+    height: 24px;
+    padding: 3px;
+    width: 100%;
+}
+
+.navbar__searchIcon {
+    padding: 5px;
+    background-color: #0C8281;
+    border-radius: 3px;
+}
+
+.navbar__option1 {
     color: #0C8281;
     font-weight: 500;
+    margin-left: 4%;
+    margin-right: 2%;
 }
+
+.navbar__option2 {
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+
+.navbar__option2 span {
+    margin-bottom: 5px;
+}
+

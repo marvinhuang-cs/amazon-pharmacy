@@ -1,6 +1,13 @@
 .home__image {
     width: 100%;
     z-index: -1;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.75));
-    margin-bottom: -100px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5));
+    margin-bottom: -200px;
+}
+
+.home__row {
+    display: flex;
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
 }
